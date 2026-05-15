@@ -22,16 +22,21 @@ body{
     width: 800px;
 }
 
-.logo img {
-  height: 120px;   
-  width: auto;
+.logo img{
+    height: 60px;
+    width: auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
 }
 .navbar-section {
   overflow: hidden;
 }
 .logo {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .row {
@@ -59,10 +64,10 @@ body{
 
 @media (max-width: 576px) {
   @media (max-width: 576px) {
-  .logo img {
+  /* .logo img {
     height: 70px;
     padding-right: 40px;
-  }
+  } */
 
   input.form-control {
     font-size: 14px;
